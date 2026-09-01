@@ -1,0 +1,27 @@
+:root {
+  background-color: white;
+  text-color: black;
+}
+#theme-toggle:checked ~ body {
+  background-color: black;
+  text-color: white;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition background-color 0.3s, color 0.3s;
+}
+.toggle-label {
+  cursor: pointer;
+  font-size: 1.2em;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1em 0;
+  border: 1px solid black;
+  transition: background-color 0.3s, color 0.3s;
+}
+#theme-toggle {
+  display: none;
+}
