@@ -56,3 +56,17 @@ nav a {
 #theme-toggle {
   display: none;
 }
+
+.theme-button {
+  cursor: pointer;
+  background: var(--header-bg);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--text);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 1rem 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
