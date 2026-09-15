@@ -70,3 +70,18 @@ nav a {
   margin: 1rem 0;
   transition: background 0.3s ease, color 0.3s ease;
 }
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+.movie {
+  text-align: center;
+}
+.movie img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
