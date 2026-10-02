@@ -129,4 +129,12 @@ blockquote {
   border-left: 4px solid var(--text);
   background: var(--header-bg);
   max-width: 600px;
+  text-align: center;
+}
+movie-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
