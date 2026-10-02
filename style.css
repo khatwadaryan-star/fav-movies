@@ -13,7 +13,7 @@
 }
 body {
   margin: 0;
-  font-family: cinema, sans-serif;
+  font-family: arial, sans-serif;
 }
 .page-wrapper {
 background: var(--bg);
@@ -101,7 +101,6 @@ iframe {
   border-radius: 8px;
 }
 blockquote {
-  font-style: italic;
   max-width: 800px;
   margin: 1rem auto;
 }
