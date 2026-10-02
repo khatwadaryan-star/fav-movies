@@ -16,14 +16,12 @@ body {
   font-family: bebas neue, sans-serif;
 }
 .page-wrapper {
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-  transition: background 0.3s ease, color 0.3s ease;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1rem;
+background: var(--bg);
+color: var(--text);
+min-height: 100vh;
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
 }
 header {
   background: var(--header-bg);
@@ -70,30 +68,16 @@ nav a {
   margin: 1rem 0;
   transition: background 0.3s ease, color 0.3s ease;
 }
-.movie-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  padding: 1rem;
-}
-.movie {
-  text-align: center;
-}
-.movie img {
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-}
 main {
   padding: 1rem;
 }
 main section {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background: var(--header-bg);
+margin: 0 auto 2rem auto;
+padding: 1.5rem;
+max-width: 1000px;
+border-radius: 8px;
+background: var(--header-bg);
+box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 header {
   text-align: center;
@@ -118,18 +102,40 @@ iframe {
 }
 blockquote {
   font-style: italic;
-  font-size: 1.2rem;
-  margin: 1rem 0;
-  padding: 1rem;
-  border-left: 4px solid var(--text);
-  background: var(--header-bg);
-  max-width: 600px;
-  text-align: center;
+  max-width: 800px;
+  margin: 1rem auto;
 }
-movie-row {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  flex-wrap: wrap;
+.movie-list {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+.movie-row {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.movie {
+text-align: center;
+width: 220px;
+}
+.movie img {
+width: 200px;
+height: 300px;
+object-fit: cover;
+border-radius: 8px;
+}
+@media (max-width: 768px) {
+.movie-row {
+flex-direction: column;
+align-items: center;
+}
+.movie {
+width: 100%;
+}
+.movie img {
+width: 250px;
+height: auto;
+}
 }
