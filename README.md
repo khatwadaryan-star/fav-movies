@@ -9,3 +9,5 @@ In today's world, people have become overwhelmed by an abundance of streaming an
 * Microsoft Copilot - Used to assist with resolving any errors I come across while writing the code.
 # How to visit it?
 You can view the deployed site here: https://khatwadaryan-star.github.io/fav-movies/
+# What changed from Project 01 to Project 02?
+For Project 02, I improved the overall site layout by adding consistent spacing, padding, and alignment throughout the pages. I changed the color palette and center-aligned the text to make the site more visually appealing. To increase the amount of meaningful content, I added a Hollywood sign image to the Home page and created individual pages for each movie recommendation that can be accessed by clicking on the movies in the Movies page. These pages include additional information such as synopses, cast details, and famous quotes. I also improved the site's responsiveness so that it works better across different screen sizes. These changes were made to address teacher feedback from Project 01 and provide visitors with a more engaging and informative experience.
